@@ -1,0 +1,71 @@
+{
+  "Groups": [
+    {
+      "Name": "Appearance",
+      "DisplayName": "Appearance",
+      "Elements": [
+        {
+          "Name": "buttonType",
+          "Description": [
+            "Select the type of button prompts to show in the game. This will be overwitten if Sonic Unleashed HUD is enabled."
+          ],
+          "DisplayName": "Button Prompts",
+          "Type": "ButtonEnum",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": 0
+        }
+      ]
+    },
+	{
+      "Name": "Settings",
+      "DisplayName": "Settings",
+      "Elements": [
+        {
+          "Name": "hackAdlibTrickJump",
+          "Description": [
+            "Hack Generations AdlibTrickJump object to be a Unleashed QTE, see https://github.com/brianuuu/DllMods/blob/master/Source/QTERestoration/QTEJumpBoard.h for usage"
+          ],
+          "DisplayName": "Replace Generations Trick Jump as QTE",
+          "Type": "bool",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": false
+        }
+      ]
+    }
+  ],
+  "Enums": {
+    "ButtonEnum": [
+      {
+        "DisplayName": "Xbox 360",
+        "Value": 0,
+        "Description": [
+          "Use Xbox 360 button prompts."
+        ]
+      },
+      {
+        "DisplayName": "Xbox Series X|S",
+        "Value": 1,
+        "Description": [
+          "Use Xbox Series X|S button prompts."
+        ]
+      },
+      {
+        "DisplayName": "PlayStation",
+        "Value": 2,
+        "Description": [
+          "Use DualShock 3 button prompts."
+        ]
+      },
+      {
+        "DisplayName": "Switch",
+        "Value": 3,
+        "Description": [
+          "Use Switch button prompts."
+        ]
+      }
+    ]
+  },
+  "IniFile": "Config.ini"
+}
