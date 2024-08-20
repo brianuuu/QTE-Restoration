@@ -37,3 +37,4 @@ brianuuu - Main Developer
 Skyth - Original Developer for ReactionPlate
 K1 A1 - Stage testing
 Hedgeturd - Redirected animations for Generations Sonic
+UltimateDarkman - Custom animations for Unleashed Super Sonic
