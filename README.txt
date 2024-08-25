@@ -1,5 +1,5 @@
 ---------------------------Sonic Generations Mod---------------------------
-----------------------------QTE Restoration v1.0---------------------------
+----------------------------QTE Restoration v1.1---------------------------
 
 This is a mod that restores QTE from Sonic Unleashed, ReactionPlate and TrickJump objects!
 This mod can also modify Generations' AdlibTrickJump object to behave like TrickJumper from Unleashed.
@@ -27,6 +27,11 @@ Known Issues
 ------------------------------------------------------------
 Change Log
 ------------------------------------------------------------
+v1.1
+-Fixed Gen QTE going backwards sometimes
+-Fixed Shadow actvating QTE in his fight
+-Fixed quitting stage during QTE will prevent any QTE from working again
+
 v1.0
 -Initial release
 
