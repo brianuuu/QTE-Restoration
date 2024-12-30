@@ -1,3 +1,7 @@
+## QTE Restoration v1.2
+
+- Fixed locking control when hitting two QTE panels at the same time
+
 ## QTE Restoration v1.1
 
 - Fixed Gen QTE going backwards sometimes
